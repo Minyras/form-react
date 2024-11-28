@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.app {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form-container {
+  width: 25%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.form {
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+  gap: 20px;
+  border: 1px solid #cfacff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+input {
+  width: 100%;
+  padding: 10px 20px;
+  border: none;
+  border-bottom: 1px solid lightgray;
+  font-size: 18px;
+}
+button {
+  background-color: #cfacff;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 10px 20px;
+  align-self: right;
+  font-size: 18px;
+}
+
+.success {
+  font-size: 20px;
+  color: green;
+}
+
+.error {
+  color: red;
+  text-align: left;
+  padding-left: 10px;
+  font-size: 18px;
+}
